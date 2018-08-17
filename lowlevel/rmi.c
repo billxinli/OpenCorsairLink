@@ -21,7 +21,7 @@
  */
 #include "lowlevel/rmi.h"
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 #include <stdio.h>
 
 #define TIMEOUT_DEFAULT 5000

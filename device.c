@@ -20,7 +20,7 @@
 
 #include "driver.h"
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 struct corsair_device_info corsairlink_devices[] = {
     {

@@ -18,7 +18,7 @@
 
 #ifndef _LOWLEVEL_PRO_H
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 int
 corsairlink_commanderpro_init( struct libusb_device_handle* dev_handle, uint8_t endpoint );

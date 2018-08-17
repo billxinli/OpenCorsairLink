@@ -22,7 +22,7 @@
 #include "device.h"
 #include "logic/options.h"
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 struct corsair_device_driver
 {

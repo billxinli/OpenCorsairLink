@@ -22,7 +22,7 @@
 #ifndef _LOWLEVEL_RMI_H
 #define _LOWLEVEL_RMI_H
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 int
 corsairlink_rmi_init( struct libusb_device_handle* dev_handle, uint8_t endpoint );

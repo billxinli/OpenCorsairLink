@@ -21,7 +21,7 @@
 #include "lowlevel/asetek.h"
 
 #include <errno.h>
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

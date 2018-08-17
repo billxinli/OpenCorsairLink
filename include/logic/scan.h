@@ -19,7 +19,7 @@
 #ifndef _SCAN_H
 #define _SCAN_H
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 
 struct corsair_device_scan
 {

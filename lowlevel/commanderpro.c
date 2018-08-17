@@ -18,7 +18,7 @@
 
 #include "lowlevel/commanderpro.h"
 
-#include <libusb.h>
+#include <libusb-1.0/libusb.h>
 #include <stdio.h>
 
 #define TIMEOUT_DEFAULT 1000 /*!< TIMEOUT_DEFAULT */
